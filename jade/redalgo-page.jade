@@ -1,0 +1,189 @@
+doctype html
+html(lang='pt')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='shortcut icon', type='image/x-icon', href='http://redalgo.com.br/images/favicon.ico')
+        link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+        link(rel='stylesheet', type='text/css', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+        // link(rel="stylesheet", type="text/css", href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+        link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Averia+Sans+Libre')
+        link(rel='stylesheet', type='text/css', href='css/main.css')
+        title Operação Cosmos
+    body
+        .container-fluid
+            .container
+                .col-md-12.main-content-container
+                    .row
+                        .col-md-2.col-sm-2.col-xs-12
+                            img.img-responsive(src='images/logo_redalgo.png', alt='Logo')
+                        .col-md-8.col-sm-8.col-xs-12
+                            nav.col-md-10.col-md-offset-1.navbar.navbar-default.nav-bar
+                                .container-fluid
+                                    .navbar-header
+                                        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#main_nav', aria-expanded='false')
+                                            span.sr-only Toggle navigation
+                                            span.icon-bar
+                                            span.icon-bar
+                                            span.icon-bar
+                                    #main_nav.collapse.navbar-collapse
+                                        ul.nav.navbar-nav
+                                            li.active
+                                                a.text-uppercase(href='#') Jogos
+                                            li
+                                                a.text-uppercase(href='#') Sobre Nós
+                                            li
+                                                a.text-uppercase(href='#') Blog
+                                            li
+                                                a.text-uppercase(href='#') Contato
+                        .col-md-2.col-sm-2.col-xs-12.text-right
+                            ul.nav.navbar-nav.navbar-right.nav-language
+                                li
+                                    a(href='#') Portugues
+                                li
+                                    a(href='#') English
+                        .col-md-12.col-sm-12.col-xs-12.carousel-container
+                            .row
+                                #carousel-game.carousel.slide(data-ride='carousel')
+                                    // Indicators
+                                    ol.carousel-indicators
+                                        li.active(data-target='#carousel-game', data-slide-to='0')
+                                        li(data-target='#carousel-game', data-slide-to='1')
+                                        li(data-target='#carousel-game', data-slide-to='2')
+                                    // Wrapper for slides
+                                    .carousel-inner(role='listbox')
+                                        .item.active
+                                            img.img-responsive(src='images/operacaocosmos/BannerOperation_Cosmos__Special_Character.jpg', alt='Cosmos')
+                        .col-md-12.col-sm-12.col-xs-12
+                            .row
+                                .col-md-12.col-sm-12.col-xs-12.bordered-block.icons-container.five-icons-container
+                                    .col-md-2.col-sm-2.col-xs-4
+                                        figure
+                                            img.img-responsive(src='images/operacaocosmos/4_Downloads_port.png', alt='500 Mil')
+                                            figcaption.downloads Downloads
+                                    .col-md-2.col-sm-2.col-xs-4
+                                        figure
+                                            img.img-responsive(src='images/operacaocosmos/11_Melhor Jogo Educativo.png', alt='Melhor')
+                                            figcaption.melhor Melhor Jogo Educativo
+                                    .col-md-2.col-sm-2.col-xs-4
+                                        figure
+                                            img.img-responsive(src='images/operacaocosmos/6_Ensino Médio.png', alt='Ensino')
+                                            figcaption.ensino Ensino Médio
+                                    .col-md-2.col-sm-2.col-xs-4
+                                        figure
+                                            img.img-responsive(src='images/operacaocosmos/5_Ensino Fundamental.png', alt='ABC')
+                                            figcaption.ensino Ensino Fundamental
+                                    .col-md-2.col-sm-2.col-xs-4
+                                        figure
+                                            img.img-responsive(src='images/operacaocosmos/13_Windows.png', alt='Windows')
+                                            figcaption.windows Windows
+                                    .col-md-12.col-sm-12.col-xs-12.icons-second-level-container
+                                        .row
+                                            .col-md-2.col-sm-2.col-xs-4
+                                                figure
+                                                    img.img-responsive(src='images/operacaocosmos/7_Fiçcão Cientifica.png', alt='Ficcao')
+                                                    figcaption.ficcao Fiçcão  Cientifica
+                                            .col-md-2.col-sm-2.col-xs-4
+                                                figure
+                                                    img.img-responsive(src='images/operacaocosmos/2_Aventura.png', alt='Aventura')
+                                                    figcaption.quebra Aventura
+                                            .col-md-2.col-sm-2.col-xs-4
+                                                figure
+                                                    img.img-responsive(src='images/operacaocosmos/9_Homologação Estadual.png', alt='Homologado')
+                                                    figcaption.homologado Homologado pelo MEC
+                                            .col-md-2.col-sm-2.col-xs-4
+                                                figure
+                                                    img.img-responsive(src='images/operacaocosmos/1_Atestado de Capacidade Técninca.png', alt='Capacidade')
+                                                    figcaption.capacidade Capacidade Técnica
+                                            .col-md-2.col-sm-2.col-xs-4
+                                                figure
+                                                    img.img-responsive(src='images/operacaocosmos/12_Linux.png', alt='Linux')
+                                                    figcaption.linux Linux
+                        .col-md-10.col-sm-10.col-xs-12.bordered-block
+                            .col-md-12.col-sm-12.col-xs-12
+                                h1.silaba Operação Cosmos
+                            .col-md-12.col-sm-12.col-xs-12.main-text-area
+                                p
+                                    | “Operação Cosmos” é uma aventura espacial em que o estudante controla o protagonista de uma história ambientada em planetas e luas do Sistema Solar. Nosso herói  é o jovem Eco Luz, um cadete brasileiro recém-graduado, que inicia seu trabalho na base do Rio de Janeiro, onde é logo convocado a investigar um meteorito encontrado em Europa, um dos satélites de Júpiter.  Nessa importante missão, Eco enfrentará uma ambiciosa corporação marciana, que se valerá de todos os recursos para se apropriar do objeto, colocando em risco a sua vida. Mas o cadete Eco Luz contará com um grande aliado nesta aventura: a comunidade científica “Operação Cosmos”, guardiã do bem estar do Universo.
+                                p
+                                    | Este projeto educativo é um jogo eletrônico, do gênero aventura, que aborda temas escolares do Ensino Fundamental e Médio. Pode ser utilizado durante todo o ano letivo, devendo ser jogado por partes, conforme o ritmo de duplas ou trios. O conteúdo pedagógico dos temas escolares abordados na história gera aulas complementares, que são sugeridas no Guia de Orientações Pedagógicas destinado ao professor.
+                        .col-md-2.col-sm-2.col-xs-12.icon-block-right-side
+                            .col-md-12.col-sm-12.col-xs-12.bordered-block
+                                .col-md-12.text-center
+                                    h3.noticias Notícias
+                                .col-md-12.block-bg-pink
+                                    p
+                                        | Menino de 2 anos aprende a ler e escrever com Silabas.
+                                        a.veja(href='#') Veja mais
+                                .col-md-12.block-bg-white
+                                    p
+                                        | MEC aprova o jogo das silabas.
+                                        a.veja(href='#') Veja mais
+                                .col-md-12.block-bg-pink
+                                    p
+                                        | Atingimos 10.000 downloads.
+                                        a.veja(href='#') Veja mais
+                                .col-md-12.block-bg-white
+                                    p
+                                        | Menino de 2 anos aprende a ler e escrever com Silabas.
+                                        a.veja(href='#') Veja mais
+                                .col-md-12.block-bg-white
+                                    p
+                                        | MEC aprova o jogo das silabas.
+                                        a.veja(href='#') Veja mais
+                                .col-md-12.block-bg-white
+                                    p
+                                        | Atingimos 10.000 downloads.
+                                        a.veja(href='#') Veja mais
+                        .col-md-12.col-sm-12.col-xs-12.bordered-block
+                            .col-md-4.col-xs-4.thumbnail-container
+                                a.thumbnail(href='#')
+                                    img(src='images/operacaocosmos/Cratera.png', alt='Buzina')
+                            .col-md-4.col-xs-4.thumbnail-container
+                                a.thumbnail(href='#')
+                                    img(src='images/operacaocosmos/eros_test3.jpg', alt='Borboleta')
+                            .col-md-4.col-xs-4.thumbnail-container
+                                a.thumbnail(href='#')
+                                    img(src='images/operacaocosmos/marineris2 copy.jpg', alt='Gelo')
+                            .col-md-4.col-xs-4.thumbnail-container
+                                a.thumbnail(href='#')
+                                    img(src='images/operacaocosmos/shot_ingame3.jpg', alt='Animals')
+                            .col-md-4.col-xs-4.thumbnail-container
+                                a.thumbnail(href='#')
+                                    img(src='images/operacaocosmos/shot_ingame4.jpg', alt='Sucuri')
+                            .col-md-4.col-xs-4.thumbnail-container
+                                a.thumbnail(href='#')
+                                    img(src='images/operacaocosmos/shot_ingame7.jpg', alt='Camarao')
+                        .col-md-12.col-sm-12.col-xs-12.text-center.social-links-container
+                            .row
+                                .col-md-6.col-md-offset-3.text-center
+                                    i.fa.fa-facebook
+                                    i.fa.fa-twitter
+                                    i.fa.fa-youtube
+                                .col-md-6.col-md-offset-3
+                                    ul.list-unstyled.list-inline.navbar-down
+                                        li
+                                            a.text-uppercase(href='#') Home
+                                        li
+                                            a.text-uppercase(href='#') Jogos
+                                        li
+                                            a.text-uppercase(href='#') Sobre Nos
+                                        li
+                                            a.text-uppercase(href='#') Blog
+                        // footer
+                        // .col-md-12.text-center.footer-container
+                        // ul.list-unstyled.list-inline.navbar-footer
+                        // li
+                        // a(href="#") Redalgo SA.
+                        // li
+                        // a(href="#") Rua Doutor Luiz Migliano, 1986 cj. 513/514 Sao Paulo 05711-001
+                        // li
+                        // a(href="mailto:#") contato@redalgo.com
+                        // li
+                        // a(href="#") +55 11 3816-2111
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+
+
+
